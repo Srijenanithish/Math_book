@@ -33,73 +33,73 @@
 	}
 
 	 </style>
-	<!-- script for adding two numbers-->
-	 <script>
-	function add(){
-	var a,b,c;	 
-	a=Number(document.getElementById("first").value);
-	b=Number(document.getElementById("second").value);
-	c= a + b;
-	document.getElementById("answer").value= c;
-	}
-	<!-- odd or even -->
-<script>
-function odd_even(){
-var no;
-no=Number(document.getElementById("no_input").value);
-if(no%2==0)
-{
-alert("Even Number");
-}
-else
-{
-alert("Odd Number");
-}
-}
-</script>
-<!--reverse a num-->
-<script>
-function palin()
-{
-var a,no,b,temp=0;
+		<!-- script for adding two numbers-->
+		 <script>
+		function add(){
+		var a,b,c;	 
+		a=Number(document.getElementById("first").value);
+		b=Number(document.getElementById("second").value);
+		c= a + b;
+		document.getElementById("answer").value= c;
+		}
+		<!-- odd or even -->
+		<script>
+		function odd_even(){
+		var no;
+		no=Number(document.getElementById("no_input").value);
+		if(no%2==0)
+		{
+		alert("Even Number");
+		}
+		else
+		{
+		alert("Odd Number");
+		}
+		}
+		</script>
+		<!--reverse a num-->
+		<script>
+		function palin()
+		{
+		var a,no,b,temp=0;
 
-no=Number(document.getElementById("no_input").value);
+		no=Number(document.getElementById("no_input").value);
 
-b=no;
-while(no>0)
-{
-a=no%10;
-no=parseInt(no/10);
-temp=temp*10+a;
-}
-alert(temp);
-}
-</script>
-<!-- palindrome num-->
-<script>
-function palin()
-{
-var a,no,b,temp=0;
+		b=no;
+		while(no>0)
+		{
+		a=no%10;
+		no=parseInt(no/10);
+		temp=temp*10+a;
+		}
+		alert(temp);
+		}
+		</script>
+		<!-- palindrome num-->
+		<script>
+		function palin()
+		{
+		var a,no,b,temp=0;
 
-no=Number(document.getElementById("no_input").value);
+		no=Number(document.getElementById("no_input").value);
 
-b=no;
-while(no>0)
-{
-a=no%10;
-no=parseInt(no/10);
-temp=temp*10+a;
-}
-if(temp==b)
-{
-alert("Palindrome number");
-}
-else
-{
-alert("Not Palindrome number");
-}
-}
-</script>
+		b=no;
+		while(no>0)
+		{
+		a=no%10;
+		no=parseInt(no/10);
+		temp=temp*10+a;
+		}
+		if(temp==b)
+		{
+		alert("Palindrome number");
+		}
+		else
+		{
+		alert("Not Palindrome number");
+		}
+		}
+		</script>
 
 
 	</script>
@@ -234,23 +234,23 @@ alert("Not Palindrome number");
             <input id="answer"></li><br>
 			<!-- odd or even -->
           <li class="list-group-item" style="background-color:#FFEFD5;">Odd or Even<br>
-Enter Any Number: <input id="no_input">
-<button onclick="odd_even()">Click me</button></li><br>
+			Enter Any Number: <input id="no_input">
+			<button onclick="odd_even()">Click me</button></li><br>
 		</ul>
       </div>
 	  <!-- factorial of a number-->
           <li class="list-group-item " style="background-color:#F5DEB3;">Factorial of a number<br>
- Enter Num: <input id="num">
-<button onclick="show()">Factorial</button>
-<input id="ans"></li><br>
-<li class="list-group-item" style="background-color:#FFEFD5;">Reverse a Number<br>
- Enter any Number: <input id="no_input">
-<button onclick="palin()">Check</button></br></li><br>
-<li class="list-group-item " style="background-color:#F5DEB3;">Palindrome number<br>Enter any Number: <input id="no_input">
-<button onclick="palin()">Check</button></br></li>
+		 Enter Num: <input id="num">
+		<button onclick="show()">Factorial</button>
+		<input id="ans"></li><br>
+		<li class="list-group-item" style="background-color:#FFEFD5;">Reverse a Number<br>
+		 Enter any Number: <input id="no_input">
+		<button onclick="palin()">Check</button></br></li><br>
+		<li class="list-group-item " style="background-color:#F5DEB3;">Palindrome number<br>Enter any Number: <input id="no_input">
+		<button onclick="palin()">Check</button></br></li>
 
-</section>
- 
+		</section>
+		 
   <footer class="page-footer font-small text-light" style="background-color: #000080">
     <div class="container-fluid text-center text-md-left">
       <div class="row">
