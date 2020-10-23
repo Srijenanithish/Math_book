@@ -65,20 +65,20 @@
 		</script>
 		<!--reverse a num-->
 		<script>
-		function palin()
+		function reverse()
 		{
-		var a,no,b,temp=0;
+		var a1,no1,b1,temp1=0;
 
-		no=Number(document.getElementById("no_input").value);
+		no1=Number(document.getElementById("reverse").value);
 
-		b=no;
-		while(no>0)
+		b1=no1;
+		while(no1>0)
 		{
-		a=no%10;
-		no=parseInt(no/10);
-		temp=temp*10+a;
+		a1=no1%10;
+		no1=parseInt(no1/10);
+		temp1=temp1*10+a1;
 		}
-		alert(temp);
+		alert(temp1);
 		}
 		</script>
 		<!-- palindrome num-->
