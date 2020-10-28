@@ -118,31 +118,31 @@
 			}
 			</script>
 
-<!-- palindrome num-->
-<script>
-function palin()
-{
-var a,no,b,temp=0;
+		<!-- palindrome num-->
+		<script>
+		function palin()
+		{
+		var a,no,b,temp=0;
 
-no=Number(document.getElementById("no_input").value);
+		no=Number(document.getElementById("no_input").value);
 
-b=no;
-while(no>0)
-{
-a=no%10;
-no=parseInt(no/10);
-temp=temp*10+a;
-}
-if(temp==b)
-{
-alert("Palindrome number");
-}
-else
-{
-alert("Not Palindrome number");
-}
-}
-</script>
+		b=no;
+		while(no>0)
+		{
+		a=no%10;
+		no=parseInt(no/10);
+		temp=temp*10+a;
+		}
+		if(temp==b)
+		{
+		alert("Palindrome number");
+		}
+		else
+		{
+		alert("Not Palindrome number");
+		}
+		}
+		</script>
 	 </head>
 	 <body id="mypage">
     <nav style="background-color: #000080; z-index: 3;"
